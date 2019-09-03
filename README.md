@@ -1,4 +1,4 @@
-# grievance-redressal-syst-50e4d
+# Google Action for Grievance Redressal
 This Action on Google project is about Voice based Grievance Redressal. Ms. Dyna, grievance assistant asks the user to register the complaint along with the mobile number.
 
 ## Setup Instructions
