@@ -54,7 +54,7 @@ app.intent('Number', (conv, {PhoneNumber}) => {
 //Handle the dialogue intent named 'Grievance'
 //The intent collects a parameter named 'Complaint'
 app.intent('Grievance', (conv, {Complaint}) => {
-  if (conv.data.userName && PhoneNumber) {
+  if (conv.data.userName && Complaint) {
     conv.ask(`${conv.data.userName}, would you like to add some more information?`);
     conv.ask(new Suggestions('Yes', 'No'));
   } else {
@@ -64,7 +64,7 @@ app.intent('Grievance', (conv, {Complaint}) => {
 });
 
 app.intent('Grievance - no', (conv) => {
-  if (conv.data.userName && PhoneNumber) {
+  if (conv.data.userName) {
     conv.close(`Thank you ${conv.data.userName} for cooperation. You will be receiving an email shortly comprising a reference number to your complaint. 
               Our team will get back to you very soon to resolve your grievance.`);
   } else {
