@@ -35,3 +35,9 @@ This Action on Google project is about Voice based Grievance Redressal. Ms. Dyna
 ## References & Issues
 1. Actions on Google [Documentation](https://developers.google.com/actions/overview)
 2. Actions on Google [Codelabs](https://codelabs.developers.google.com/)
+
+## License
+See [LICENSE](https://github.com/actions-on-google/dialogflow-ssml-nodejs/blob/master/LICENSE)
+
+## Terms
+Your use of this sample is subject to, and by using or downloading the sample files you agree to comply with, the [Google APIs Terms of Service].(https://developers.google.com/terms/)
