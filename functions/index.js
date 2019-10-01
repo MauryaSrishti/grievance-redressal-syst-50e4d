@@ -28,8 +28,8 @@ app.intent('Default Welcome Intent', (conv) => {
   }));
 });
 
-// Handle the Dialogflow intent named 'actions_intent_PERMISSION'. If user
-// agreed to PERMISSION prompt, then boolean value 'permissionGranted' is true.
+// Handle the Dialogflow intent named 'actions_intent_PERMISSION'. 
+//If user agreed to PERMISSION prompt, then boolean value 'permissionGranted' is true.
 app.intent('actions_intent_PERMISSION', (conv, params, permissionGranted) => {
   if (!permissionGranted) {
     conv.ask(`Ok, no worries. Please tell me your mobile number?`);
