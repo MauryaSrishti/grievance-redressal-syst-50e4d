@@ -17,7 +17,7 @@
     "builder": "^4.0.0",
     "firebase-admin": "^8.4.0",
     "firebase-functions": "^3.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "ssml": "0.0.4"
   },
   "devDependencies": {
